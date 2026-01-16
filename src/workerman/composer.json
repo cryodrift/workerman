@@ -1,0 +1,20 @@
+{
+  "name": "cryodrift/workerman",
+  "description": "Serve cryodrift with  Workerman Server",
+  "type": "library",
+  "license": "MIT",
+  "version": "0.1.0",
+  "require": {
+    "php": ">=8.4",
+    "cryodrift/fw": "^0.1.0",
+    "workerman/workerman": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "cryodrift\\workerman\\": ""
+    }
+  },
+  "bin": [
+    "workerman.php"
+  ]
+}
